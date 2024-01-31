@@ -1,0 +1,290 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* navber-start */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default {
+    border-bottom: .1px solid white;
+}
+
+section#header {
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    max-width: 100%;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    font-family: Raleway-bold;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+
+
+/* navber-end */
+
+
+/* baner-section-start */
+
+.banner-text.text-center {
+    margin-top: 150px;
+}
+
+.banner-text.text-center h1 {
+    color: white;
+    word-spacing: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+.banner-text-paragraph.text-center p {
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.btn-header a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 15px 50px;
+    margin-left: 40%;
+    font-size: 15px;
+    font-family: 'Raleway';
+    margin-top: 45px;
+}
+
+
+/* baner-section-end   */
+
+
+/* about-main-start   */
+
+.main-about-pen {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.main-about-pen .about-icon {
+    font-size: 80px;
+    color: red;
+}
+
+.main-about-pen .about-heading h3 {
+    font-family: Raleway-bold;
+    font-size: 20px;
+}
+
+.main-about-pen .about-heading p {
+    font-family: Raleway;
+    font-size: 15px;
+    .im2 img {
+        width: 100%;
+        display: inline-block;
+        border: 2px solid white;
+    }
+}
+
+
+/* about-main-end    */
+
+
+/* about-img-start    */
+
+section#about-img {
+    box-sizing: border-box;
+}
+
+.content-img {
+    margin-top: 120px;
+}
+
+.im2,
+.im3,
+.im4,
+.im5,
+.im6,
+.im7,
+.im8,
+img {
+    max-width: 100%;
+    display: inline-block;
+    border: .1px solid white;
+}
+
+
+/* about-img-end    */
+
+
+/* protfolio-start    */
+
+.content-protfolio {
+    margin-top: 100px;
+}
+
+h4 {
+    color: red;
+}
+
+.protfolio-icon ul {
+    display: flex;
+    list-style: none;
+}
+
+.protfolio-header2 h3,
+.protfolio-text p {
+    font-family: 'Raleway';
+}
+
+.facebook-icon,
+.youtube-icon,
+.instragram-icon {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.protfolio-icon {
+    margin-bottom: 100px;
+}
+
+
+/* protfolio-end    */
+
+
+/* -- oner-img-carosol-start -- */
+
+.oner-img img {
+    display: inline-block;
+    width: 100%;
+    height: 293px !important;
+}
+
+div#carousel-id {
+    display: inline-block;
+    height: 290px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+/* -- oner-img-carosol-end -- */
+
+
+/* -- download-start-- */
+
+.download-header {
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 294px;
+}
+
+.content {
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Raleway';
+}
+
+.download-text p {
+    font-size: 14px;
+}
+
+.download-btn button {
+    padding: 10px 90px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: none;
+}
+
+
+/* -- download-end------ */
+
+
+/* -- contract-start------ */
+
+.contract-icon ul li {
+    display: inline-flex;
+    padding: 14px;
+    font-size: 25px;
+    background-color: #3a3e64;
+}
+
+.contract {
+    background-color: #3a3e64;
+}
+
+.contract-heading h3 {
+    color: white;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.contract-heading p {
+    color: white;
+}
+
+.contract-icon li a {
+    color: white;
+    border: 1px solid cornflowerblue;
+    padding: 0px 8px;
+    margin-right: -16px;
+    text-align: center;
+}
+
+.contract-heading p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+
+/* -- contract-end-------- */
+
+
+/* -- footer-start-------- */
+
+.about-footer {
+    text-align: center;
+    color: white;
+    background-color: #;
+    background-color: #313454;
+    padding: 10px;
+}
+
+i.fa.fa-heart {
+    color: red;
+}
+
+
+/* -- footer-end---------- */
